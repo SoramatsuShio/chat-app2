@@ -1,7 +1,3 @@
-class Message < ApplicationRecord
-  belongs_to :room
-  belongs_to :user
-  has_one_attached :image
-
-  validates :content, presence: true
+class ApplicationRecord < ActiveRecord::Base
+  primary_abstract_class
 end
