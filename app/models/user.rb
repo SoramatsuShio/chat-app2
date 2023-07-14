@@ -10,4 +10,3 @@ class User < ApplicationRecord
 
   validates :name, presence: true
 end
-解説
